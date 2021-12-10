@@ -8,7 +8,9 @@
     @livewireStyles
 </head>
 <body>
-    
+    @livewire('counter')
+    @livewire('hello-world')
+    @livewire('test')
     @livewireScripts
 </body>
 </html>
