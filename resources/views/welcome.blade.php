@@ -7,12 +7,13 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Livewire</title>
     @livewireStyles
+    @livewireScripts
 </head>
 <body>
     <div class="container mx-auto bg-gray-200">
         <h1>Livewire Tutorial</h1>
         <livewire:posts />
     </div>
-    @livewireScripts
+    
 </body>
 </html>
