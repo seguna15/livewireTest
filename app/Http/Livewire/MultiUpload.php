@@ -23,7 +23,7 @@ class MultiUpload extends Component
 
         foreach ($this->photos as $photo) {
 
-            $photo->store('photos');
+            $photo->store('images');
 
         }
 

@@ -7,6 +7,8 @@
             <img  class="w-32 h-32" src="{{ $photo->temporaryUrl() }}">
 
         @endif
+
+      
     </div>
    <div class="flex">
         <form wire:submit.prevent="save">

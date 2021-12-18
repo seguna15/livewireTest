@@ -1,2 +1,6 @@
+@livewireScripts
+
+</script>
+
 </body>
 </html>

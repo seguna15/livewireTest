@@ -10,3 +10,16 @@
     <p>updatedCall: {{ $updatedCall }}</p>
     <button wire:click="resetTitle('Livewire', 'Livewire Body')">Reset</button>
 </div>
+
+
+
+   <div class="flex">
+        @if($photos)
+            Photo Preview:
+            <div class="flex bg-blue-200 p-4 rounded-lg">
+                @foreach($photos as $photo)
+                <img class="w-32 h-32 p-2 rounded-lg" src="{{ $photo->temporaryUrl() }}">
+            @endforeach
+            </div>
+        @endif
+    </div>

@@ -7,6 +7,6 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Livewire</title>
     @livewireStyles
-    @livewireScripts
+   
 </head>
 <body>
