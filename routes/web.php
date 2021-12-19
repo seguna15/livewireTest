@@ -21,6 +21,10 @@ Route::get('upload', function(){
     return view('upload');
 });
 
+Route::get('blogShow', function(){
+    return view('blogShow');
+});
+
 Route::get('multiFiles', function(){
     return view('multiFiles');
 });
